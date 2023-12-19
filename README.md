@@ -1,2 +1,2 @@
 # limfunrat2
-Quadratic rational function limits
+Quadratic rational function limits computation and visualizaion.
