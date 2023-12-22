@@ -278,9 +278,17 @@ def lim(a1,b1,c1,a2,b2,c2):
     
     f1=plt.figure()
     
+    f1.suptitle("Limit at zero")
+    f1.supxlabel("X")
+    f1.supylabel("Y")
+    
     res1=limzero(a1,b1,c1,a2,b2,c2)
     
     f2=plt.figure()
+    
+    f2.suptitle("Limit at infinity")
+    f2.supxlabel("X")
+    f2.supylabel("Y")
     
     res2=liminf(a1,b1,c1,a2,b2,c2)
     
